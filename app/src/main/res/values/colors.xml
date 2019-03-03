@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- START Copyright 2015 COOLORS -v2.0.1-->
+    <color name="colorPrimary">#900C3F</color>
+    <color name="colorPrimaryDark">#581845</color>
+    <color name="colorAccent">#FFC300</color>
+    <!-- END Copyright 2015 COOLORS -v2.0.1-->
+    <color name="red">#FF0000</color>
+    <color name="androidHint">#808080</color>
+</resources>

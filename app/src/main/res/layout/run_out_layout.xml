@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/whoisout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/routbatman1"
+            android:text="Sanaullah"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/routbatman2"
+            android:text="Ratin"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter run completed:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center"
+        android:id="@+id/routruncomp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extra:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@id/routNoneExtra">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/routNoneExtra"
+            android:text="None"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="8dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wd"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="4dp"
+            android:id="@+id/routWd"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nb"
+            android:layout_marginStart="8dp"
+            android:id="@+id/routNb"/>
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B/LB:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:checkedButton="@id/routNoneBLB"
+        android:id="@+id/routBLBRadios">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/routNoneBLB"
+            android:text="None"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="8dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B   "
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="4dp"
+            android:id="@+id/routBye"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LB  "
+            android:layout_marginStart="8dp"
+            android:id="@+id/routLBye"/>
+    </RadioGroup>
+
+</LinearLayout>
